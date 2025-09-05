@@ -1,0 +1,7 @@
+/root/tiago_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:action/PlayMotion2.idl
+/root/tiago_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:msg/Motion.idl
+/root/tiago_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:srv/AddMotion.idl
+/root/tiago_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:srv/GetMotionInfo.idl
+/root/tiago_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:srv/IsMotionReady.idl
+/root/tiago_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:srv/ListMotions.idl
+/root/tiago_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:srv/RemoveMotion.idl

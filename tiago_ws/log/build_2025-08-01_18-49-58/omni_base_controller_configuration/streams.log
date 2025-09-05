@@ -1,0 +1,52 @@
+[0.483s] Invoking command in '/root/tiago_ws/build/omni_base_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake /root/tiago_ws/src/tiago_omni_base/omni_base_controller_configuration -DCMAKE_INSTALL_PREFIX=/root/tiago_ws/install/omni_base_controller_configuration
+[2.092s] -- The C compiler identification is GNU 13.3.0
+[2.272s] -- The CXX compiler identification is GNU 13.3.0
+[2.354s] -- Detecting C compiler ABI info
+[2.724s] -- Detecting C compiler ABI info - done
+[2.757s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.757s] -- Detecting C compile features
+[2.799s] -- Detecting C compile features - done
+[2.827s] -- Detecting CXX compiler ABI info
+[3.153s] -- Detecting CXX compiler ABI info - done
+[3.179s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.180s] -- Detecting CXX compile features
+[3.181s] -- Detecting CXX compile features - done
+[3.487s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[4.200s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.683s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.834s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.858s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.858s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.859s] -- Added test 'lint_cmake' to check CMake code style
+[5.860s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.860s] -- Added test 'xmllint' to check XML markup files
+[5.863s] -- Configuring done (5.2s)
+[5.872s] -- Generating done (0.0s)
+[5.874s] -- Build files have been written to: /root/tiago_ws/build/omni_base_controller_configuration
+[5.996s] Invoked command in '/root/tiago_ws/build/omni_base_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake /root/tiago_ws/src/tiago_omni_base/omni_base_controller_configuration -DCMAKE_INSTALL_PREFIX=/root/tiago_ws/install/omni_base_controller_configuration
+[5.998s] Invoking command in '/root/tiago_ws/build/omni_base_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tiago_ws/build/omni_base_controller_configuration -- -j12 -l12
+[6.519s] Invoked command in '/root/tiago_ws/build/omni_base_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tiago_ws/build/omni_base_controller_configuration -- -j12 -l12
+[6.520s] Invoking command in '/root/tiago_ws/build/omni_base_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tiago_ws/build/omni_base_controller_configuration
+[6.543s] -- Install configuration: ""
+[6.544s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/config
+[6.545s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/config/mobile_base_controller.yaml
+[6.560s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/config/joint_state_broadcaster.yaml
+[6.573s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/config/imu_sensor_broadcaster.yaml
+[6.580s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/launch
+[6.580s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/launch/default_controllers.launch.py
+[6.580s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/ament_index/resource_index/package_run_dependencies/omni_base_controller_configuration
+[6.580s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/ament_index/resource_index/parent_prefix_path/omni_base_controller_configuration
+[6.580s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/environment/ament_prefix_path.sh
+[6.581s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/environment/ament_prefix_path.dsv
+[6.581s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/environment/path.sh
+[6.581s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/environment/path.dsv
+[6.581s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/local_setup.bash
+[6.581s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/local_setup.sh
+[6.581s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/local_setup.zsh
+[6.582s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/local_setup.dsv
+[6.582s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/package.dsv
+[6.582s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/ament_index/resource_index/packages/omni_base_controller_configuration
+[6.582s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/cmake/omni_base_controller_configurationConfig.cmake
+[6.582s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/cmake/omni_base_controller_configurationConfig-version.cmake
+[6.582s] -- Installing: /root/tiago_ws/install/omni_base_controller_configuration/share/omni_base_controller_configuration/package.xml
+[6.591s] Invoked command in '/root/tiago_ws/build/omni_base_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tiago_ws/build/omni_base_controller_configuration

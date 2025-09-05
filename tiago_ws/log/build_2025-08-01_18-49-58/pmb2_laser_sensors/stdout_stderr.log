@@ -1,0 +1,40 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/tiago_ws/build/pmb2_laser_sensors
+-- Install configuration: ""
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params/laser_pipeline_w_composition.yaml
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params/laser_pipeline_sim.yaml
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params/laser_pipeline.yaml
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/package_run_dependencies/pmb2_laser_sensors
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/parent_prefix_path/pmb2_laser_sensors
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/ament_prefix_path.sh
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/ament_prefix_path.dsv
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/path.sh
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/path.dsv
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.bash
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.sh
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.zsh
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.dsv
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/package.dsv
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/packages/pmb2_laser_sensors
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/cmake/pmb2_laser_sensorsConfig.cmake
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/cmake/pmb2_laser_sensorsConfig-version.cmake
+-- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/package.xml

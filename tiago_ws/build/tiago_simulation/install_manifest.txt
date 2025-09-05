@@ -1,0 +1,15 @@
+/root/tiago_ws/install/tiago_simulation/share/ament_index/resource_index/package_run_dependencies/tiago_simulation
+/root/tiago_ws/install/tiago_simulation/share/ament_index/resource_index/parent_prefix_path/tiago_simulation
+/root/tiago_ws/install/tiago_simulation/share/tiago_simulation/environment/ament_prefix_path.sh
+/root/tiago_ws/install/tiago_simulation/share/tiago_simulation/environment/ament_prefix_path.dsv
+/root/tiago_ws/install/tiago_simulation/share/tiago_simulation/environment/path.sh
+/root/tiago_ws/install/tiago_simulation/share/tiago_simulation/environment/path.dsv
+/root/tiago_ws/install/tiago_simulation/share/tiago_simulation/local_setup.bash
+/root/tiago_ws/install/tiago_simulation/share/tiago_simulation/local_setup.sh
+/root/tiago_ws/install/tiago_simulation/share/tiago_simulation/local_setup.zsh
+/root/tiago_ws/install/tiago_simulation/share/tiago_simulation/local_setup.dsv
+/root/tiago_ws/install/tiago_simulation/share/tiago_simulation/package.dsv
+/root/tiago_ws/install/tiago_simulation/share/ament_index/resource_index/packages/tiago_simulation
+/root/tiago_ws/install/tiago_simulation/share/tiago_simulation/cmake/tiago_simulationConfig.cmake
+/root/tiago_ws/install/tiago_simulation/share/tiago_simulation/cmake/tiago_simulationConfig-version.cmake
+/root/tiago_ws/install/tiago_simulation/share/tiago_simulation/package.xml

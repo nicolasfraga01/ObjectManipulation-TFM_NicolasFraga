@@ -1,0 +1,64 @@
+[0.459s] Invoking command in '/root/tiago_ws/build/pal_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake /root/tiago_ws/src/pal_maps -DCMAKE_INSTALL_PREFIX=/root/tiago_ws/install/pal_maps
+[2.057s] -- The C compiler identification is GNU 13.3.0
+[2.242s] -- The CXX compiler identification is GNU 13.3.0
+[2.319s] -- Detecting C compiler ABI info
+[2.679s] -- Detecting C compiler ABI info - done
+[2.708s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.715s] -- Detecting C compile features
+[2.765s] -- Detecting C compile features - done
+[2.790s] -- Detecting CXX compiler ABI info
+[3.100s] -- Detecting CXX compiler ABI info - done
+[3.131s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.132s] -- Detecting CXX compile features
+[3.136s] -- Detecting CXX compile features - done
+[3.453s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[4.131s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.256s] -- Configuring done (4.6s)
+[5.263s] -- Generating done (0.0s)
+[5.268s] -- Build files have been written to: /root/tiago_ws/build/pal_maps
+[5.284s] Invoked command in '/root/tiago_ws/build/pal_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake /root/tiago_ws/src/pal_maps -DCMAKE_INSTALL_PREFIX=/root/tiago_ws/install/pal_maps
+[5.285s] Invoking command in '/root/tiago_ws/build/pal_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tiago_ws/build/pal_maps -- -j12 -l12
+[5.524s] Invoked command in '/root/tiago_ws/build/pal_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tiago_ws/build/pal_maps -- -j12 -l12
+[5.545s] Invoking command in '/root/tiago_ws/build/pal_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tiago_ws/build/pal_maps
+[5.579s] -- Install configuration: ""
+[5.579s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps
+[5.579s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/pal_office_7th_floor
+[5.580s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/pal_office_7th_floor/map.yaml
+[5.581s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/pal_office_7th_floor/map.pgm
+[5.625s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/willow_garage
+[5.626s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/willow_garage/map.yaml
+[5.626s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/willow_garage/map.pgm
+[5.682s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/small_office
+[5.682s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/small_office/map.yaml
+[5.682s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/small_office/map.pgm
+[5.682s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/hospital
+[5.682s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/hospital/map.yaml
+[5.682s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/hospital/map.pgm
+[5.697s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/small_house
+[5.697s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/small_house/map.yaml
+[5.697s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/small_house/map.pgm
+[5.708s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/hospital_with_aruco
+[5.708s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/hospital_with_aruco/map.yaml
+[5.709s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/hospital_with_aruco/map.pgm
+[5.825s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/small_warehouse
+[5.825s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/small_warehouse/map.yaml
+[5.826s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/small_warehouse/map.pgm
+[6.385s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/pal_office
+[6.385s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/pal_office/map.yaml
+[6.389s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/maps/pal_office/map.pgm
+[6.399s] -- Installing: /root/tiago_ws/install/pal_maps/share/ament_index/resource_index/package_run_dependencies/pal_maps
+[6.399s] -- Installing: /root/tiago_ws/install/pal_maps/share/ament_index/resource_index/parent_prefix_path/pal_maps
+[6.400s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/environment/ament_prefix_path.sh
+[6.400s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/environment/ament_prefix_path.dsv
+[6.400s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/environment/path.sh
+[6.401s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/environment/path.dsv
+[6.401s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/local_setup.bash
+[6.401s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/local_setup.sh
+[6.401s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/local_setup.zsh
+[6.402s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/local_setup.dsv
+[6.402s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/package.dsv
+[6.402s] -- Installing: /root/tiago_ws/install/pal_maps/share/ament_index/resource_index/packages/pal_maps
+[6.403s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/cmake/pal_mapsConfig.cmake
+[6.403s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/cmake/pal_mapsConfig-version.cmake
+[6.403s] -- Installing: /root/tiago_ws/install/pal_maps/share/pal_maps/package.xml
+[6.410s] Invoked command in '/root/tiago_ws/build/pal_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tiago_ws/build/pal_maps

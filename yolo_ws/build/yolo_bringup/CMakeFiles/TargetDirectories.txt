@@ -1,0 +1,9 @@
+/root/yolo_ws/build/yolo_bringup/CMakeFiles/uninstall.dir
+/root/yolo_ws/build/yolo_bringup/CMakeFiles/yolo_bringup_uninstall.dir
+/root/yolo_ws/build/yolo_bringup/CMakeFiles/test.dir
+/root/yolo_ws/build/yolo_bringup/CMakeFiles/edit_cache.dir
+/root/yolo_ws/build/yolo_bringup/CMakeFiles/rebuild_cache.dir
+/root/yolo_ws/build/yolo_bringup/CMakeFiles/list_install_components.dir
+/root/yolo_ws/build/yolo_bringup/CMakeFiles/install.dir
+/root/yolo_ws/build/yolo_bringup/CMakeFiles/install/local.dir
+/root/yolo_ws/build/yolo_bringup/CMakeFiles/install/strip.dir

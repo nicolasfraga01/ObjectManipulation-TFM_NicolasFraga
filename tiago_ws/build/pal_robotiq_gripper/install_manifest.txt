@@ -1,0 +1,15 @@
+/root/tiago_ws/install/pal_robotiq_gripper/share/ament_index/resource_index/package_run_dependencies/pal_robotiq_gripper
+/root/tiago_ws/install/pal_robotiq_gripper/share/ament_index/resource_index/parent_prefix_path/pal_robotiq_gripper
+/root/tiago_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/environment/ament_prefix_path.sh
+/root/tiago_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/environment/ament_prefix_path.dsv
+/root/tiago_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/environment/path.sh
+/root/tiago_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/environment/path.dsv
+/root/tiago_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/local_setup.bash
+/root/tiago_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/local_setup.sh
+/root/tiago_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/local_setup.zsh
+/root/tiago_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/local_setup.dsv
+/root/tiago_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/package.dsv
+/root/tiago_ws/install/pal_robotiq_gripper/share/ament_index/resource_index/packages/pal_robotiq_gripper
+/root/tiago_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/cmake/pal_robotiq_gripperConfig.cmake
+/root/tiago_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/cmake/pal_robotiq_gripperConfig-version.cmake
+/root/tiago_ws/install/pal_robotiq_gripper/share/pal_robotiq_gripper/package.xml

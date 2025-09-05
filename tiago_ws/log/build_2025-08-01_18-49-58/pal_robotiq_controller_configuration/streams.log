@@ -1,0 +1,50 @@
+[0.450s] Invoking command in '/root/tiago_ws/build/pal_robotiq_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake /root/tiago_ws/src/pal_robotiq_gripper/pal_robotiq_controller_configuration -DCMAKE_INSTALL_PREFIX=/root/tiago_ws/install/pal_robotiq_controller_configuration
+[2.051s] -- The C compiler identification is GNU 13.3.0
+[2.254s] -- The CXX compiler identification is GNU 13.3.0
+[2.308s] -- Detecting C compiler ABI info
+[2.691s] -- Detecting C compiler ABI info - done
+[2.715s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.716s] -- Detecting C compile features
+[2.752s] -- Detecting C compile features - done
+[2.790s] -- Detecting CXX compiler ABI info
+[3.103s] -- Detecting CXX compiler ABI info - done
+[3.129s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.130s] -- Detecting CXX compile features
+[3.131s] -- Detecting CXX compile features - done
+[3.441s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[4.143s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.210s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.402s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.412s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.412s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.414s] -- Added test 'lint_cmake' to check CMake code style
+[5.419s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.424s] -- Added test 'xmllint' to check XML markup files
+[5.447s] -- Configuring done (4.9s)
+[5.471s] -- Generating done (0.0s)
+[5.497s] -- Build files have been written to: /root/tiago_ws/build/pal_robotiq_controller_configuration
+[5.576s] Invoked command in '/root/tiago_ws/build/pal_robotiq_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake /root/tiago_ws/src/pal_robotiq_gripper/pal_robotiq_controller_configuration -DCMAKE_INSTALL_PREFIX=/root/tiago_ws/install/pal_robotiq_controller_configuration
+[5.578s] Invoking command in '/root/tiago_ws/build/pal_robotiq_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tiago_ws/build/pal_robotiq_controller_configuration -- -j12 -l12
+[5.741s] Invoked command in '/root/tiago_ws/build/pal_robotiq_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tiago_ws/build/pal_robotiq_controller_configuration -- -j12 -l12
+[5.743s] Invoking command in '/root/tiago_ws/build/pal_robotiq_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tiago_ws/build/pal_robotiq_controller_configuration
+[5.759s] -- Install configuration: ""
+[5.759s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/config
+[5.759s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/config/robotiq_gripper_controller.yaml
+[5.789s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/launch
+[5.789s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/launch/robotiq_gripper_controller.launch.py
+[5.791s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/ament_index/resource_index/package_run_dependencies/pal_robotiq_controller_configuration
+[5.809s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/ament_index/resource_index/parent_prefix_path/pal_robotiq_controller_configuration
+[5.809s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/environment/ament_prefix_path.sh
+[5.809s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/environment/ament_prefix_path.dsv
+[5.809s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/environment/path.sh
+[5.810s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/environment/path.dsv
+[5.810s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/local_setup.bash
+[5.810s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/local_setup.sh
+[5.810s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/local_setup.zsh
+[5.811s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/local_setup.dsv
+[5.811s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/package.dsv
+[5.811s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/ament_index/resource_index/packages/pal_robotiq_controller_configuration
+[5.811s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/cmake/pal_robotiq_controller_configurationConfig.cmake
+[5.811s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/cmake/pal_robotiq_controller_configurationConfig-version.cmake
+[5.812s] -- Installing: /root/tiago_ws/install/pal_robotiq_controller_configuration/share/pal_robotiq_controller_configuration/package.xml
+[5.921s] Invoked command in '/root/tiago_ws/build/pal_robotiq_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tiago_ws/build/pal_robotiq_controller_configuration

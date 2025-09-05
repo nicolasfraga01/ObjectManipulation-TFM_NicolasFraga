@@ -1,0 +1,46 @@
+[0.431s] Invoking command in '/root/tiago_ws/build/pmb2_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake /root/tiago_ws/src/pmb2_navigation/pmb2_laser_sensors -DCMAKE_INSTALL_PREFIX=/root/tiago_ws/install/pmb2_laser_sensors
+[5.418s] -- The C compiler identification is GNU 13.3.0
+[5.418s] -- The CXX compiler identification is GNU 13.3.0
+[5.418s] -- Detecting C compiler ABI info
+[5.422s] -- Detecting C compiler ABI info - done
+[5.422s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.423s] -- Detecting C compile features
+[5.423s] -- Detecting C compile features - done
+[5.423s] -- Detecting CXX compiler ABI info
+[5.423s] -- Detecting CXX compiler ABI info - done
+[5.423s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.423s] -- Detecting CXX compile features
+[5.424s] -- Detecting CXX compile features - done
+[5.424s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[5.424s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.424s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.424s] -- Added test 'lint_cmake' to check CMake code style
+[5.425s] -- Added test 'xmllint' to check XML markup files
+[5.425s] -- Configuring done (4.8s)
+[5.425s] -- Generating done (0.0s)
+[5.425s] -- Build files have been written to: /root/tiago_ws/build/pmb2_laser_sensors
+[5.436s] Invoked command in '/root/tiago_ws/build/pmb2_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake /root/tiago_ws/src/pmb2_navigation/pmb2_laser_sensors -DCMAKE_INSTALL_PREFIX=/root/tiago_ws/install/pmb2_laser_sensors
+[5.437s] Invoking command in '/root/tiago_ws/build/pmb2_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tiago_ws/build/pmb2_laser_sensors -- -j12 -l12
+[5.555s] Invoked command in '/root/tiago_ws/build/pmb2_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tiago_ws/build/pmb2_laser_sensors -- -j12 -l12
+[5.556s] Invoking command in '/root/tiago_ws/build/pmb2_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tiago_ws/build/pmb2_laser_sensors
+[5.626s] -- Install configuration: ""
+[5.626s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params
+[5.626s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params/laser_pipeline_w_composition.yaml
+[5.626s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params/laser_pipeline_sim.yaml
+[5.626s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params/laser_pipeline.yaml
+[5.631s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/package_run_dependencies/pmb2_laser_sensors
+[5.632s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/parent_prefix_path/pmb2_laser_sensors
+[5.634s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/ament_prefix_path.sh
+[5.635s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/ament_prefix_path.dsv
+[5.635s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/path.sh
+[5.635s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/path.dsv
+[5.635s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.bash
+[5.636s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.sh
+[5.636s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.zsh
+[5.636s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.dsv
+[5.637s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/package.dsv
+[5.637s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/packages/pmb2_laser_sensors
+[5.637s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/cmake/pmb2_laser_sensorsConfig.cmake
+[5.638s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/cmake/pmb2_laser_sensorsConfig-version.cmake
+[5.638s] -- Installing: /root/tiago_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/package.xml
+[5.691s] Invoked command in '/root/tiago_ws/build/pmb2_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tiago_ws/build/pmb2_laser_sensors

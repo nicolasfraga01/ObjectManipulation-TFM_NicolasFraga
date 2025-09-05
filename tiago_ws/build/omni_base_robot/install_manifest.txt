@@ -1,0 +1,15 @@
+/root/tiago_ws/install/omni_base_robot/share/ament_index/resource_index/package_run_dependencies/omni_base_robot
+/root/tiago_ws/install/omni_base_robot/share/ament_index/resource_index/parent_prefix_path/omni_base_robot
+/root/tiago_ws/install/omni_base_robot/share/omni_base_robot/environment/ament_prefix_path.sh
+/root/tiago_ws/install/omni_base_robot/share/omni_base_robot/environment/ament_prefix_path.dsv
+/root/tiago_ws/install/omni_base_robot/share/omni_base_robot/environment/path.sh
+/root/tiago_ws/install/omni_base_robot/share/omni_base_robot/environment/path.dsv
+/root/tiago_ws/install/omni_base_robot/share/omni_base_robot/local_setup.bash
+/root/tiago_ws/install/omni_base_robot/share/omni_base_robot/local_setup.sh
+/root/tiago_ws/install/omni_base_robot/share/omni_base_robot/local_setup.zsh
+/root/tiago_ws/install/omni_base_robot/share/omni_base_robot/local_setup.dsv
+/root/tiago_ws/install/omni_base_robot/share/omni_base_robot/package.dsv
+/root/tiago_ws/install/omni_base_robot/share/ament_index/resource_index/packages/omni_base_robot
+/root/tiago_ws/install/omni_base_robot/share/omni_base_robot/cmake/omni_base_robotConfig.cmake
+/root/tiago_ws/install/omni_base_robot/share/omni_base_robot/cmake/omni_base_robotConfig-version.cmake
+/root/tiago_ws/install/omni_base_robot/share/omni_base_robot/package.xml

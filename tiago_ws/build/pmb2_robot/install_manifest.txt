@@ -1,0 +1,15 @@
+/root/tiago_ws/install/pmb2_robot/share/ament_index/resource_index/package_run_dependencies/pmb2_robot
+/root/tiago_ws/install/pmb2_robot/share/ament_index/resource_index/parent_prefix_path/pmb2_robot
+/root/tiago_ws/install/pmb2_robot/share/pmb2_robot/environment/ament_prefix_path.sh
+/root/tiago_ws/install/pmb2_robot/share/pmb2_robot/environment/ament_prefix_path.dsv
+/root/tiago_ws/install/pmb2_robot/share/pmb2_robot/environment/path.sh
+/root/tiago_ws/install/pmb2_robot/share/pmb2_robot/environment/path.dsv
+/root/tiago_ws/install/pmb2_robot/share/pmb2_robot/local_setup.bash
+/root/tiago_ws/install/pmb2_robot/share/pmb2_robot/local_setup.sh
+/root/tiago_ws/install/pmb2_robot/share/pmb2_robot/local_setup.zsh
+/root/tiago_ws/install/pmb2_robot/share/pmb2_robot/local_setup.dsv
+/root/tiago_ws/install/pmb2_robot/share/pmb2_robot/package.dsv
+/root/tiago_ws/install/pmb2_robot/share/ament_index/resource_index/packages/pmb2_robot
+/root/tiago_ws/install/pmb2_robot/share/pmb2_robot/cmake/pmb2_robotConfig.cmake
+/root/tiago_ws/install/pmb2_robot/share/pmb2_robot/cmake/pmb2_robotConfig-version.cmake
+/root/tiago_ws/install/pmb2_robot/share/pmb2_robot/package.xml

@@ -1,0 +1,87 @@
+[0.488s] Invoking command in '/root/tiago_ws/build/pal_robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake /root/tiago_ws/src/pal_robotiq_gripper/pal_robotiq_description -DCMAKE_INSTALL_PREFIX=/root/tiago_ws/install/pal_robotiq_description
+[2.114s] -- The C compiler identification is GNU 13.3.0
+[2.328s] -- The CXX compiler identification is GNU 13.3.0
+[2.366s] -- Detecting C compiler ABI info
+[2.753s] -- Detecting C compiler ABI info - done
+[2.787s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.787s] -- Detecting C compile features
+[2.807s] -- Detecting C compile features - done
+[2.835s] -- Detecting CXX compiler ABI info
+[3.142s] -- Detecting CXX compiler ABI info - done
+[3.180s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.181s] -- Detecting CXX compile features
+[3.182s] -- Detecting CXX compile features - done
+[3.495s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[4.192s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.289s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.457s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.477s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.478s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.487s] -- Added test 'lint_cmake' to check CMake code style
+[5.488s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.501s] -- Added test 'xmllint' to check XML markup files
+[5.522s] -- Configuring done (4.9s)
+[5.523s] -- Generating done (0.0s)
+[5.525s] -- Build files have been written to: /root/tiago_ws/build/pal_robotiq_description
+[5.621s] Invoked command in '/root/tiago_ws/build/pal_robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake /root/tiago_ws/src/pal_robotiq_gripper/pal_robotiq_description -DCMAKE_INSTALL_PREFIX=/root/tiago_ws/install/pal_robotiq_description
+[5.624s] Invoking command in '/root/tiago_ws/build/pal_robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tiago_ws/build/pal_robotiq_description -- -j12 -l12
+[5.798s] Invoked command in '/root/tiago_ws/build/pal_robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tiago_ws/build/pal_robotiq_description -- -j12 -l12
+[5.801s] Invoking command in '/root/tiago_ws/build/pal_robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tiago_ws/build/pal_robotiq_description
+[5.817s] -- Install configuration: ""
+[5.818s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes
+[5.818s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision
+[5.818s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_outer_finger.dae
+[5.867s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_140_outer_finger.stl
+[5.868s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_base_link.stl
+[5.876s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_coupling.stl
+[5.881s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_outer_knuckle.dae
+[5.885s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_140_inner_knuckle.stl
+[5.886s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_inner_finger.dae
+[5.886s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_base_link.stl
+[5.888s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_140_outer_knuckle.stl
+[5.890s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_inner_knuckle.dae
+[5.892s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_140_inner_finger.stl
+[5.893s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual
+[5.893s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/pal_robotiq_coupling.stl
+[6.504s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_outer_finger.dae
+[6.536s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_140_outer_finger.stl
+[6.543s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_coupling.stl
+[6.543s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_outer_knuckle.dae
+[6.548s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_140_inner_knuckle.stl
+[6.553s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_inner_finger.dae
+[6.567s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_base_link.stl
+[6.601s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_140_outer_knuckle.stl
+[6.602s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_inner_knuckle.dae
+[6.607s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_pad.dae
+[6.608s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_140_inner_finger.stl
+[6.608s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/robots
+[6.608s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/robots/pal_robotiq_2f_85_gripper.urdf.xacro
+[6.609s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/robots/pal_robotiq_2f_140_gripper.urdf.xacro
+[6.610s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/robots/pal_robotiq_epick_gripper.urdf.xacro
+[6.610s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/urdf
+[6.610s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/urdf/robotiq_140_gripper.urdf.xacro
+[6.616s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/urdf/robotiq.ros2_control.xacro
+[6.616s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/urdf/grasping_frames.xacro
+[6.617s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/urdf/robotiq_85_gripper.urdf.xacro
+[6.618s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/urdf/robotiq.transmission.xacro
+[6.618s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/launch
+[6.618s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/launch/robot_state_publisher.launch.py
+[6.619s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/launch/show.launch.py
+[6.619s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/config
+[6.620s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/config/pal_robotiq_urdf.rviz
+[6.621s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/ament_index/resource_index/package_run_dependencies/pal_robotiq_description
+[6.623s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/ament_index/resource_index/parent_prefix_path/pal_robotiq_description
+[6.623s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/environment/ament_prefix_path.sh
+[6.624s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/environment/ament_prefix_path.dsv
+[6.624s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/environment/path.sh
+[6.624s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/environment/path.dsv
+[6.625s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/local_setup.bash
+[6.625s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/local_setup.sh
+[6.626s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/local_setup.zsh
+[6.626s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/local_setup.dsv
+[6.626s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/package.dsv
+[6.626s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/ament_index/resource_index/packages/pal_robotiq_description
+[6.627s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/cmake/pal_robotiq_descriptionConfig.cmake
+[6.627s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/cmake/pal_robotiq_descriptionConfig-version.cmake
+[6.627s] -- Installing: /root/tiago_ws/install/pal_robotiq_description/share/pal_robotiq_description/package.xml
+[6.646s] Invoked command in '/root/tiago_ws/build/pal_robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tiago_ws/build/pal_robotiq_description

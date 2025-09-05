@@ -1,0 +1,396 @@
+[0.000000] (-) TimerEvent: {}
+[0.000531] (arm_movement) JobQueued: {'identifier': 'arm_movement', 'dependencies': OrderedDict()}
+[0.000564] (arm_movement) JobStarted: {'identifier': 'arm_movement'}
+[0.099912] (-) TimerEvent: {}
+[0.200128] (-) TimerEvent: {}
+[0.300339] (-) TimerEvent: {}
+[0.313013] (arm_movement) JobProgress: {'identifier': 'arm_movement', 'progress': 'cmake'}
+[0.313574] (arm_movement) Command: {'cmd': ['/usr/bin/cmake', '/root/tfm_ws/src/arm_movement', '-DCMAKE_INSTALL_PREFIX=/root/tfm_ws/install/arm_movement'], 'cwd': '/root/tfm_ws/build/arm_movement', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '6e4a7c97e04e', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/yolo_ws/install/yolo_msgs/lib:/root/tiago_ws/install/play_motion2/lib:/root/tiago_ws/install/play_motion2_msgs/lib:/root/mtc_ws/install/moveit_task_constructor_visualization/lib:/root/mtc_ws/install/moveit_task_constructor_demo/lib:/root/mtc_ws/install/moveit_task_constructor_capabilities/lib:/root/mtc_ws/install/moveit_task_constructor_core/lib:/root/mtc_ws/install/rviz_marker_tools/lib:/root/mtc_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root/tfm_ws/src/arm_movement/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/yolo_ws/install:/root/tiago_ws/install:/root/tfm_ws/install:/root/mtc_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/root/tfm_ws/install/arm_movement:/root/yolo_ws/install/yolo_bringup:/root/yolo_ws/install/yolo_ros:/root/yolo_ws/install/yolo_msgs:/root/tiago_ws/install/tiago_simulation:/root/tiago_ws/install/tiago_robot:/root/tiago_ws/install/tiago_navigation:/root/tiago_ws/install/tiago_gazebo:/root/tiago_ws/install/tiago_moveit_config:/root/tiago_ws/install/tiago_2dnav:/root/tiago_ws/install/tiago_laser_sensors:/root/tiago_ws/install/tiago_harmonic:/root/tiago_ws/install/tiago_bringup:/root/tiago_ws/install/tiago_description:/root/tiago_ws/install/tiago_controller_configuration:/root/tiago_ws/install/pmb2_robot:/root/tiago_ws/install/pmb2_navigation:/root/tiago_ws/install/pmb2_2dnav:/root/tiago_ws/install/pmb2_laser_sensors:/root/tiago_ws/install/pmb2_bringup:/root/tiago_ws/install/pmb2_description:/root/tiago_ws/install/pmb2_controller_configuration:/root/tiago_ws/install/play_motion2:/root/tiago_ws/install/play_motion2_msgs:/root/tiago_ws/install/pal_hey5:/root/tiago_ws/install/pal_hey5_description:/root/tiago_ws/install/pal_gripper_simulation:/root/tiago_ws/install/pal_gripper:/root/tiago_ws/install/pal_gripper_description:/root/tiago_ws/install/omni_base_robot:/root/tiago_ws/install/omni_base_bringup:/root/tiago_ws/install/omni_base_description:/root/tiago_ws/install/pal_urdf_utils:/root/tiago_ws/install/pal_robotiq_gripper:/root/tiago_ws/install/pal_robotiq_description:/root/tiago_ws/install/pal_robotiq_controller_configuration:/root/tiago_ws/install/pal_maps:/root/tiago_ws/install/pal_hey5_controller_configuration:/root/tiago_ws/install/pal_gripper_controller_configuration:/root/tiago_ws/install/omni_base_controller_configuration:/root/tiago_ws/install/launch_pal:/root/tiago_ws/install/br2_gazebo_worlds:/root/mtc_ws/install/moveit_task_constructor_visualization:/root/mtc_ws/install/moveit_task_constructor_demo:/root/mtc_ws/install/moveit_task_constructor_capabilities:/root/mtc_ws/install/moveit_task_constructor_core:/root/mtc_ws/install/rviz_marker_tools:/root/mtc_ws/install/moveit_task_constructor_msgs:/opt/ros/jazzy', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'CMAKE_MODULE_PATH': '/root/mtc_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/tfm_ws/build/arm_movement', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/yolo_ws/install/yolo_ros/lib/python3.12/site-packages:/root/yolo_ws/install/yolo_msgs/lib/python3.12/site-packages:/root/tiago_ws/install/tiago_description/lib/python3.12/site-packages:/root/tiago_ws/install/pmb2_description/lib/python3.12/site-packages:/root/tiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages:/root/tiago_ws/install/omni_base_description/lib/python3.12/site-packages:/root/tiago_ws/install/launch_pal/lib/python3.12/site-packages:/root/mtc_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages:/root/mtc_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/tfm_ws/install/arm_movement:/root/yolo_ws/install/yolo_bringup:/root/yolo_ws/install/yolo_msgs:/root/tiago_ws/install/tiago_simulation:/root/tiago_ws/install/tiago_robot:/root/tiago_ws/install/tiago_navigation:/root/tiago_ws/install/tiago_gazebo:/root/tiago_ws/install/tiago_moveit_config:/root/tiago_ws/install/tiago_2dnav:/root/tiago_ws/install/tiago_laser_sensors:/root/tiago_ws/install/tiago_harmonic:/root/tiago_ws/install/tiago_bringup:/root/tiago_ws/install/tiago_description:/root/tiago_ws/install/tiago_controller_configuration:/root/tiago_ws/install/pmb2_robot:/root/tiago_ws/install/pmb2_navigation:/root/tiago_ws/install/pmb2_2dnav:/root/tiago_ws/install/pmb2_laser_sensors:/root/tiago_ws/install/pmb2_bringup:/root/tiago_ws/install/pmb2_description:/root/tiago_ws/install/pmb2_controller_configuration:/root/tiago_ws/install/play_motion2:/root/tiago_ws/install/play_motion2_msgs:/root/tiago_ws/install/pal_hey5:/root/tiago_ws/install/pal_hey5_description:/root/tiago_ws/install/pal_gripper_simulation:/root/tiago_ws/install/pal_gripper:/root/tiago_ws/install/pal_gripper_description:/root/tiago_ws/install/omni_base_robot:/root/tiago_ws/install/omni_base_bringup:/root/tiago_ws/install/omni_base_description:/root/tiago_ws/install/pal_urdf_utils:/root/tiago_ws/install/pal_robotiq_gripper:/root/tiago_ws/install/pal_robotiq_description:/root/tiago_ws/install/pal_robotiq_controller_configuration:/root/tiago_ws/install/pal_maps:/root/tiago_ws/install/pal_hey5_controller_configuration:/root/tiago_ws/install/pal_gripper_controller_configuration:/root/tiago_ws/install/omni_base_controller_configuration:/root/tiago_ws/install/br2_gazebo_worlds:/root/mtc_ws/install/moveit_task_constructor_visualization:/root/mtc_ws/install/moveit_task_constructor_demo:/root/mtc_ws/install/moveit_task_constructor_capabilities:/root/mtc_ws/install/moveit_task_constructor_core:/root/mtc_ws/install/rviz_marker_tools:/root/mtc_ws/install/moveit_task_constructor_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy'}), 'shell': False}
+[0.400722] (-) TimerEvent: {}
+[0.501130] (-) TimerEvent: {}
+[0.601397] (-) TimerEvent: {}
+[0.701677] (-) TimerEvent: {}
+[0.801946] (-) TimerEvent: {}
+[0.902345] (-) TimerEvent: {}
+[1.002865] (-) TimerEvent: {}
+[1.103236] (-) TimerEvent: {}
+[1.203736] (-) TimerEvent: {}
+[1.303975] (-) TimerEvent: {}
+[1.404189] (-) TimerEvent: {}
+[1.504637] (-) TimerEvent: {}
+[1.604899] (-) TimerEvent: {}
+[1.705129] (-) TimerEvent: {}
+[1.805326] (-) TimerEvent: {}
+[1.905832] (-) TimerEvent: {}
+[2.006130] (-) TimerEvent: {}
+[2.106518] (-) TimerEvent: {}
+[2.206749] (-) TimerEvent: {}
+[2.306944] (-) TimerEvent: {}
+[2.392720] (arm_movement) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.407246] (-) TimerEvent: {}
+[2.507494] (-) TimerEvent: {}
+[2.607818] (-) TimerEvent: {}
+[2.708141] (-) TimerEvent: {}
+[2.808370] (-) TimerEvent: {}
+[2.908609] (-) TimerEvent: {}
+[3.008839] (-) TimerEvent: {}
+[3.109056] (-) TimerEvent: {}
+[3.209488] (-) TimerEvent: {}
+[3.248393] (arm_movement) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.309633] (-) TimerEvent: {}
+[3.326554] (arm_movement) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.409799] (-) TimerEvent: {}
+[3.510114] (-) TimerEvent: {}
+[3.564736] (arm_movement) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.575972] (arm_movement) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.590747] (arm_movement) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.610215] (-) TimerEvent: {}
+[3.637762] (arm_movement) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.696280] (arm_movement) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.710301] (-) TimerEvent: {}
+[3.810528] (-) TimerEvent: {}
+[3.843037] (arm_movement) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.852835] (arm_movement) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.853141] (arm_movement) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.853601] (arm_movement) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.910643] (-) TimerEvent: {}
+[4.010959] (-) TimerEvent: {}
+[4.111408] (-) TimerEvent: {}
+[4.179598] (arm_movement) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.211515] (-) TimerEvent: {}
+[4.311732] (-) TimerEvent: {}
+[4.411967] (-) TimerEvent: {}
+[4.506925] (arm_movement) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.512039] (-) TimerEvent: {}
+[4.612259] (-) TimerEvent: {}
+[4.712504] (-) TimerEvent: {}
+[4.812736] (-) TimerEvent: {}
+[4.912944] (-) TimerEvent: {}
+[4.979081] (arm_movement) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)\n'}
+[5.013127] (-) TimerEvent: {}
+[5.113372] (-) TimerEvent: {}
+[5.213616] (-) TimerEvent: {}
+[5.314142] (-) TimerEvent: {}
+[5.414339] (-) TimerEvent: {}
+[5.514782] (-) TimerEvent: {}
+[5.615015] (-) TimerEvent: {}
+[5.688552] (arm_movement) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread \n'}
+[5.715149] (-) TimerEvent: {}
+[5.815353] (-) TimerEvent: {}
+[5.915548] (-) TimerEvent: {}
+[6.015743] (-) TimerEvent: {}
+[6.089151] (arm_movement) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[6.115814] (-) TimerEvent: {}
+[6.161353] (arm_movement) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[6.215934] (-) TimerEvent: {}
+[6.228862] (arm_movement) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.283448] (arm_movement) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.316087] (-) TimerEvent: {}
+[6.416298] (-) TimerEvent: {}
+[6.516805] (-) TimerEvent: {}
+[6.617117] (-) TimerEvent: {}
+[6.717339] (-) TimerEvent: {}
+[6.817535] (-) TimerEvent: {}
+[6.917768] (-) TimerEvent: {}
+[7.018003] (-) TimerEvent: {}
+[7.118253] (-) TimerEvent: {}
+[7.140978] (arm_movement) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[7.218415] (-) TimerEvent: {}
+[7.318666] (-) TimerEvent: {}
+[7.419005] (-) TimerEvent: {}
+[7.519266] (-) TimerEvent: {}
+[7.619602] (-) TimerEvent: {}
+[7.719990] (-) TimerEvent: {}
+[7.789179] (arm_movement) StdoutLine: {'line': b'-- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)\n'}
+[7.820073] (-) TimerEvent: {}
+[7.920323] (-) TimerEvent: {}
+[8.020518] (-) TimerEvent: {}
+[8.041660] (arm_movement) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[8.060367] (arm_movement) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.120642] (-) TimerEvent: {}
+[8.220956] (-) TimerEvent: {}
+[8.321181] (-) TimerEvent: {}
+[8.397533] (arm_movement) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[8.421264] (-) TimerEvent: {}
+[8.423654] (arm_movement) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[8.452050] (arm_movement) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.521382] (-) TimerEvent: {}
+[8.621620] (-) TimerEvent: {}
+[8.721870] (-) TimerEvent: {}
+[8.725549] (arm_movement) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[8.806943] (arm_movement) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem \n'}
+[8.821944] (-) TimerEvent: {}
+[8.922135] (-) TimerEvent: {}
+[9.020686] (arm_movement) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[9.020837] (arm_movement) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[9.022198] (-) TimerEvent: {}
+[9.122401] (-) TimerEvent: {}
+[9.222639] (-) TimerEvent: {}
+[9.322907] (-) TimerEvent: {}
+[9.423353] (-) TimerEvent: {}
+[9.523973] (-) TimerEvent: {}
+[9.624354] (-) TimerEvent: {}
+[9.724596] (-) TimerEvent: {}
+[9.824961] (-) TimerEvent: {}
+[9.841863] (arm_movement) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono \n'}
+[9.925087] (-) TimerEvent: {}
+[9.974930] (arm_movement) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options \n'}
+[10.025194] (-) TimerEvent: {}
+[10.067738] (arm_movement) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread \n'}
+[10.125280] (-) TimerEvent: {}
+[10.186342] (arm_movement) StdoutLine: {'line': b'-- Found control_msgs: 5.4.0 (/opt/ros/jazzy/share/control_msgs/cmake)\n'}
+[10.225390] (-) TimerEvent: {}
+[10.256403] (arm_movement) StdoutLine: {'line': b'-- Found yolo_msgs: 4.2.0 (/root/yolo_ws/install/yolo_msgs/share/yolo_msgs/cmake)\n'}
+[10.319802] (arm_movement) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[10.325435] (-) TimerEvent: {}
+[10.425636] (-) TimerEvent: {}
+[10.526006] (-) TimerEvent: {}
+[10.582707] (arm_movement) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.582907] (arm_movement) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.582987] (arm_movement) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.609780] (arm_movement) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.614723] (arm_movement) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.614839] (arm_movement) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.617577] (arm_movement) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.626134] (-) TimerEvent: {}
+[10.633949] (arm_movement) StdoutLine: {'line': b'-- Configuring done (9.9s)\n'}
+[10.726221] (-) TimerEvent: {}
+[10.826444] (-) TimerEvent: {}
+[10.828796] (arm_movement) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[10.846751] (arm_movement) StdoutLine: {'line': b'-- Build files have been written to: /root/tfm_ws/build/arm_movement\n'}
+[10.870618] (arm_movement) CommandEnded: {'returncode': 0}
+[10.871818] (arm_movement) JobProgress: {'identifier': 'arm_movement', 'progress': 'build'}
+[10.871847] (arm_movement) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/tfm_ws/build/arm_movement', '--', '-j12', '-l12'], 'cwd': '/root/tfm_ws/build/arm_movement', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '6e4a7c97e04e', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/yolo_ws/install/yolo_msgs/lib:/root/tiago_ws/install/play_motion2/lib:/root/tiago_ws/install/play_motion2_msgs/lib:/root/mtc_ws/install/moveit_task_constructor_visualization/lib:/root/mtc_ws/install/moveit_task_constructor_demo/lib:/root/mtc_ws/install/moveit_task_constructor_capabilities/lib:/root/mtc_ws/install/moveit_task_constructor_core/lib:/root/mtc_ws/install/rviz_marker_tools/lib:/root/mtc_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root/tfm_ws/src/arm_movement/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/yolo_ws/install:/root/tiago_ws/install:/root/tfm_ws/install:/root/mtc_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/root/tfm_ws/install/arm_movement:/root/yolo_ws/install/yolo_bringup:/root/yolo_ws/install/yolo_ros:/root/yolo_ws/install/yolo_msgs:/root/tiago_ws/install/tiago_simulation:/root/tiago_ws/install/tiago_robot:/root/tiago_ws/install/tiago_navigation:/root/tiago_ws/install/tiago_gazebo:/root/tiago_ws/install/tiago_moveit_config:/root/tiago_ws/install/tiago_2dnav:/root/tiago_ws/install/tiago_laser_sensors:/root/tiago_ws/install/tiago_harmonic:/root/tiago_ws/install/tiago_bringup:/root/tiago_ws/install/tiago_description:/root/tiago_ws/install/tiago_controller_configuration:/root/tiago_ws/install/pmb2_robot:/root/tiago_ws/install/pmb2_navigation:/root/tiago_ws/install/pmb2_2dnav:/root/tiago_ws/install/pmb2_laser_sensors:/root/tiago_ws/install/pmb2_bringup:/root/tiago_ws/install/pmb2_description:/root/tiago_ws/install/pmb2_controller_configuration:/root/tiago_ws/install/play_motion2:/root/tiago_ws/install/play_motion2_msgs:/root/tiago_ws/install/pal_hey5:/root/tiago_ws/install/pal_hey5_description:/root/tiago_ws/install/pal_gripper_simulation:/root/tiago_ws/install/pal_gripper:/root/tiago_ws/install/pal_gripper_description:/root/tiago_ws/install/omni_base_robot:/root/tiago_ws/install/omni_base_bringup:/root/tiago_ws/install/omni_base_description:/root/tiago_ws/install/pal_urdf_utils:/root/tiago_ws/install/pal_robotiq_gripper:/root/tiago_ws/install/pal_robotiq_description:/root/tiago_ws/install/pal_robotiq_controller_configuration:/root/tiago_ws/install/pal_maps:/root/tiago_ws/install/pal_hey5_controller_configuration:/root/tiago_ws/install/pal_gripper_controller_configuration:/root/tiago_ws/install/omni_base_controller_configuration:/root/tiago_ws/install/launch_pal:/root/tiago_ws/install/br2_gazebo_worlds:/root/mtc_ws/install/moveit_task_constructor_visualization:/root/mtc_ws/install/moveit_task_constructor_demo:/root/mtc_ws/install/moveit_task_constructor_capabilities:/root/mtc_ws/install/moveit_task_constructor_core:/root/mtc_ws/install/rviz_marker_tools:/root/mtc_ws/install/moveit_task_constructor_msgs:/opt/ros/jazzy', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'CMAKE_MODULE_PATH': '/root/mtc_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/tfm_ws/build/arm_movement', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/yolo_ws/install/yolo_ros/lib/python3.12/site-packages:/root/yolo_ws/install/yolo_msgs/lib/python3.12/site-packages:/root/tiago_ws/install/tiago_description/lib/python3.12/site-packages:/root/tiago_ws/install/pmb2_description/lib/python3.12/site-packages:/root/tiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages:/root/tiago_ws/install/omni_base_description/lib/python3.12/site-packages:/root/tiago_ws/install/launch_pal/lib/python3.12/site-packages:/root/mtc_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages:/root/mtc_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/tfm_ws/install/arm_movement:/root/yolo_ws/install/yolo_bringup:/root/yolo_ws/install/yolo_msgs:/root/tiago_ws/install/tiago_simulation:/root/tiago_ws/install/tiago_robot:/root/tiago_ws/install/tiago_navigation:/root/tiago_ws/install/tiago_gazebo:/root/tiago_ws/install/tiago_moveit_config:/root/tiago_ws/install/tiago_2dnav:/root/tiago_ws/install/tiago_laser_sensors:/root/tiago_ws/install/tiago_harmonic:/root/tiago_ws/install/tiago_bringup:/root/tiago_ws/install/tiago_description:/root/tiago_ws/install/tiago_controller_configuration:/root/tiago_ws/install/pmb2_robot:/root/tiago_ws/install/pmb2_navigation:/root/tiago_ws/install/pmb2_2dnav:/root/tiago_ws/install/pmb2_laser_sensors:/root/tiago_ws/install/pmb2_bringup:/root/tiago_ws/install/pmb2_description:/root/tiago_ws/install/pmb2_controller_configuration:/root/tiago_ws/install/play_motion2:/root/tiago_ws/install/play_motion2_msgs:/root/tiago_ws/install/pal_hey5:/root/tiago_ws/install/pal_hey5_description:/root/tiago_ws/install/pal_gripper_simulation:/root/tiago_ws/install/pal_gripper:/root/tiago_ws/install/pal_gripper_description:/root/tiago_ws/install/omni_base_robot:/root/tiago_ws/install/omni_base_bringup:/root/tiago_ws/install/omni_base_description:/root/tiago_ws/install/pal_urdf_utils:/root/tiago_ws/install/pal_robotiq_gripper:/root/tiago_ws/install/pal_robotiq_description:/root/tiago_ws/install/pal_robotiq_controller_configuration:/root/tiago_ws/install/pal_maps:/root/tiago_ws/install/pal_hey5_controller_configuration:/root/tiago_ws/install/pal_gripper_controller_configuration:/root/tiago_ws/install/omni_base_controller_configuration:/root/tiago_ws/install/br2_gazebo_worlds:/root/mtc_ws/install/moveit_task_constructor_visualization:/root/mtc_ws/install/moveit_task_constructor_demo:/root/mtc_ws/install/moveit_task_constructor_capabilities:/root/mtc_ws/install/moveit_task_constructor_core:/root/mtc_ws/install/rviz_marker_tools:/root/mtc_ws/install/moveit_task_constructor_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy'}), 'shell': False}
+[10.926538] (-) TimerEvent: {}
+[10.940016] (arm_movement) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mani_yolo.dir/src/mani_yolo.cpp.o\x1b[0m\n'}
+[11.026927] (-) TimerEvent: {}
+[11.127485] (-) TimerEvent: {}
+[11.227858] (-) TimerEvent: {}
+[11.328063] (-) TimerEvent: {}
+[11.428257] (-) TimerEvent: {}
+[11.528487] (-) TimerEvent: {}
+[11.628867] (-) TimerEvent: {}
+[11.729099] (-) TimerEvent: {}
+[11.829293] (-) TimerEvent: {}
+[11.929487] (-) TimerEvent: {}
+[12.029699] (-) TimerEvent: {}
+[12.129926] (-) TimerEvent: {}
+[12.230128] (-) TimerEvent: {}
+[12.330349] (-) TimerEvent: {}
+[12.430582] (-) TimerEvent: {}
+[12.531113] (-) TimerEvent: {}
+[12.631307] (-) TimerEvent: {}
+[12.731501] (-) TimerEvent: {}
+[12.831740] (-) TimerEvent: {}
+[12.931972] (-) TimerEvent: {}
+[13.032229] (-) TimerEvent: {}
+[13.132722] (-) TimerEvent: {}
+[13.232916] (-) TimerEvent: {}
+[13.333154] (-) TimerEvent: {}
+[13.433415] (-) TimerEvent: {}
+[13.533669] (-) TimerEvent: {}
+[13.633993] (-) TimerEvent: {}
+[13.734232] (-) TimerEvent: {}
+[13.834440] (-) TimerEvent: {}
+[13.934974] (-) TimerEvent: {}
+[14.035216] (-) TimerEvent: {}
+[14.135458] (-) TimerEvent: {}
+[14.235966] (-) TimerEvent: {}
+[14.336188] (-) TimerEvent: {}
+[14.436440] (-) TimerEvent: {}
+[14.536941] (-) TimerEvent: {}
+[14.637176] (-) TimerEvent: {}
+[14.737374] (-) TimerEvent: {}
+[14.837621] (-) TimerEvent: {}
+[14.937901] (-) TimerEvent: {}
+[15.038312] (-) TimerEvent: {}
+[15.138651] (-) TimerEvent: {}
+[15.238905] (-) TimerEvent: {}
+[15.339428] (-) TimerEvent: {}
+[15.439660] (-) TimerEvent: {}
+[15.539955] (-) TimerEvent: {}
+[15.640136] (-) TimerEvent: {}
+[15.740328] (-) TimerEvent: {}
+[15.840644] (-) TimerEvent: {}
+[15.940876] (-) TimerEvent: {}
+[16.041421] (-) TimerEvent: {}
+[16.141958] (-) TimerEvent: {}
+[16.242137] (-) TimerEvent: {}
+[16.342359] (-) TimerEvent: {}
+[16.442789] (-) TimerEvent: {}
+[16.543139] (-) TimerEvent: {}
+[16.643333] (-) TimerEvent: {}
+[16.743580] (-) TimerEvent: {}
+[16.843823] (-) TimerEvent: {}
+[16.944081] (-) TimerEvent: {}
+[17.044290] (-) TimerEvent: {}
+[17.144527] (-) TimerEvent: {}
+[17.244744] (-) TimerEvent: {}
+[17.344975] (-) TimerEvent: {}
+[17.445203] (-) TimerEvent: {}
+[17.545417] (-) TimerEvent: {}
+[17.645619] (-) TimerEvent: {}
+[17.745861] (-) TimerEvent: {}
+[17.846098] (-) TimerEvent: {}
+[17.946315] (-) TimerEvent: {}
+[18.046550] (-) TimerEvent: {}
+[18.146791] (-) TimerEvent: {}
+[18.247035] (-) TimerEvent: {}
+[18.347357] (-) TimerEvent: {}
+[18.447603] (-) TimerEvent: {}
+[18.547851] (-) TimerEvent: {}
+[18.648097] (-) TimerEvent: {}
+[18.748363] (-) TimerEvent: {}
+[18.848610] (-) TimerEvent: {}
+[18.948852] (-) TimerEvent: {}
+[19.049067] (-) TimerEvent: {}
+[19.149266] (-) TimerEvent: {}
+[19.249502] (-) TimerEvent: {}
+[19.349742] (-) TimerEvent: {}
+[19.450052] (-) TimerEvent: {}
+[19.550250] (-) TimerEvent: {}
+[19.650449] (-) TimerEvent: {}
+[19.750683] (-) TimerEvent: {}
+[19.850931] (-) TimerEvent: {}
+[19.951242] (-) TimerEvent: {}
+[20.051488] (-) TimerEvent: {}
+[20.151738] (-) TimerEvent: {}
+[20.251986] (-) TimerEvent: {}
+[20.352238] (-) TimerEvent: {}
+[20.396235] (arm_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/root/tfm_ws/src/arm_movement/src/mani_yolo.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kmoveit_msgs::msg::AttachedCollisionObject\x1b[01;32m\x1b[K grab_object\x1b[m\x1b[K(const rclcpp::Logger&, moveit::planning_interface::MoveGroupInterface&, moveit::planning_interface::PlanningSceneInterface&, std::string, moveit::planning_interface::MoveGroupInterface&, double, double, double, const std::string&, const OffsetsManipulation&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.396478] (arm_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/root/tfm_ws/src/arm_movement/src/mani_yolo.cpp:352:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconverting to \xe2\x80\x98\x1b[01m\x1b[Kmoveit_msgs::msg::AttachedCollisionObject\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kmoveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} from initializer list would use explicit constructor \xe2\x80\x98\x1b[01m\x1b[Kmoveit_msgs::msg::AttachedCollisionObject_<ContainerAllocator>::\x1b[01;32m\x1b[KAttachedCollisionObject_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.396603] (arm_movement) StderrLine: {'line': b'  352 |         return {\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[20.396723] (arm_movement) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.396830] (arm_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/root/tfm_ws/src/arm_movement/src/mani_yolo.cpp:352:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin C++11 and above a default constructor can be explicit\n'}
+[20.452334] (-) TimerEvent: {}
+[20.552581] (-) TimerEvent: {}
+[20.652830] (-) TimerEvent: {}
+[20.753062] (-) TimerEvent: {}
+[20.853248] (-) TimerEvent: {}
+[20.953457] (-) TimerEvent: {}
+[21.053953] (-) TimerEvent: {}
+[21.154437] (-) TimerEvent: {}
+[21.254689] (-) TimerEvent: {}
+[21.354926] (-) TimerEvent: {}
+[21.455161] (-) TimerEvent: {}
+[21.555388] (-) TimerEvent: {}
+[21.655631] (-) TimerEvent: {}
+[21.755868] (-) TimerEvent: {}
+[21.856130] (-) TimerEvent: {}
+[21.956357] (-) TimerEvent: {}
+[22.056554] (-) TimerEvent: {}
+[22.156796] (-) TimerEvent: {}
+[22.257040] (-) TimerEvent: {}
+[22.357276] (-) TimerEvent: {}
+[22.457481] (-) TimerEvent: {}
+[22.557718] (-) TimerEvent: {}
+[22.657954] (-) TimerEvent: {}
+[22.758118] (-) TimerEvent: {}
+[22.858342] (-) TimerEvent: {}
+[22.958547] (-) TimerEvent: {}
+[23.058787] (-) TimerEvent: {}
+[23.158984] (-) TimerEvent: {}
+[23.259193] (-) TimerEvent: {}
+[23.359422] (-) TimerEvent: {}
+[23.459659] (-) TimerEvent: {}
+[23.559883] (-) TimerEvent: {}
+[23.660149] (-) TimerEvent: {}
+[23.760358] (-) TimerEvent: {}
+[23.860627] (-) TimerEvent: {}
+[23.960863] (-) TimerEvent: {}
+[24.061064] (-) TimerEvent: {}
+[24.161263] (-) TimerEvent: {}
+[24.261503] (-) TimerEvent: {}
+[24.361741] (-) TimerEvent: {}
+[24.461976] (-) TimerEvent: {}
+[24.562158] (-) TimerEvent: {}
+[24.662389] (-) TimerEvent: {}
+[24.762624] (-) TimerEvent: {}
+[24.862860] (-) TimerEvent: {}
+[24.963099] (-) TimerEvent: {}
+[25.063349] (-) TimerEvent: {}
+[25.163590] (-) TimerEvent: {}
+[25.263792] (-) TimerEvent: {}
+[25.364061] (-) TimerEvent: {}
+[25.464287] (-) TimerEvent: {}
+[25.564516] (-) TimerEvent: {}
+[25.664735] (-) TimerEvent: {}
+[25.764959] (-) TimerEvent: {}
+[25.865119] (-) TimerEvent: {}
+[25.965339] (-) TimerEvent: {}
+[26.065535] (-) TimerEvent: {}
+[26.165728] (-) TimerEvent: {}
+[26.265946] (-) TimerEvent: {}
+[26.366151] (-) TimerEvent: {}
+[26.466393] (-) TimerEvent: {}
+[26.566632] (-) TimerEvent: {}
+[26.666867] (-) TimerEvent: {}
+[26.767072] (-) TimerEvent: {}
+[26.867309] (-) TimerEvent: {}
+[26.967545] (-) TimerEvent: {}
+[27.067783] (-) TimerEvent: {}
+[27.168034] (-) TimerEvent: {}
+[27.268271] (-) TimerEvent: {}
+[27.368509] (-) TimerEvent: {}
+[27.468757] (-) TimerEvent: {}
+[27.568998] (-) TimerEvent: {}
+[27.669241] (-) TimerEvent: {}
+[27.769479] (-) TimerEvent: {}
+[27.869717] (-) TimerEvent: {}
+[27.969981] (-) TimerEvent: {}
+[28.070187] (-) TimerEvent: {}
+[28.170421] (-) TimerEvent: {}
+[28.270702] (-) TimerEvent: {}
+[28.370905] (-) TimerEvent: {}
+[28.471169] (-) TimerEvent: {}
+[28.571411] (-) TimerEvent: {}
+[28.601636] (arm_movement) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mani_yolo\x1b[0m\n'}
+[28.671497] (-) TimerEvent: {}
+[28.771929] (-) TimerEvent: {}
+[28.872167] (-) TimerEvent: {}
+[28.972468] (-) TimerEvent: {}
+[29.072840] (-) TimerEvent: {}
+[29.173114] (-) TimerEvent: {}
+[29.273342] (-) TimerEvent: {}
+[29.373539] (-) TimerEvent: {}
+[29.473744] (-) TimerEvent: {}
+[29.573997] (-) TimerEvent: {}
+[29.674245] (-) TimerEvent: {}
+[29.774818] (-) TimerEvent: {}
+[29.875242] (-) TimerEvent: {}
+[29.975438] (-) TimerEvent: {}
+[30.075867] (-) TimerEvent: {}
+[30.176161] (-) TimerEvent: {}
+[30.276593] (-) TimerEvent: {}
+[30.376926] (-) TimerEvent: {}
+[30.477162] (-) TimerEvent: {}
+[30.577595] (-) TimerEvent: {}
+[30.677793] (-) TimerEvent: {}
+[30.778066] (-) TimerEvent: {}
+[30.878276] (-) TimerEvent: {}
+[30.893026] (arm_movement) StdoutLine: {'line': b'[100%] Built target mani_yolo\n'}
+[30.905709] (arm_movement) CommandEnded: {'returncode': 0}
+[30.906251] (arm_movement) JobProgress: {'identifier': 'arm_movement', 'progress': 'install'}
+[30.916833] (arm_movement) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/tfm_ws/build/arm_movement'], 'cwd': '/root/tfm_ws/build/arm_movement', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '6e4a7c97e04e', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/yolo_ws/install/yolo_msgs/lib:/root/tiago_ws/install/play_motion2/lib:/root/tiago_ws/install/play_motion2_msgs/lib:/root/mtc_ws/install/moveit_task_constructor_visualization/lib:/root/mtc_ws/install/moveit_task_constructor_demo/lib:/root/mtc_ws/install/moveit_task_constructor_capabilities/lib:/root/mtc_ws/install/moveit_task_constructor_core/lib:/root/mtc_ws/install/rviz_marker_tools/lib:/root/mtc_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root/tfm_ws/src/arm_movement/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/yolo_ws/install:/root/tiago_ws/install:/root/tfm_ws/install:/root/mtc_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/root/tfm_ws/install/arm_movement:/root/yolo_ws/install/yolo_bringup:/root/yolo_ws/install/yolo_ros:/root/yolo_ws/install/yolo_msgs:/root/tiago_ws/install/tiago_simulation:/root/tiago_ws/install/tiago_robot:/root/tiago_ws/install/tiago_navigation:/root/tiago_ws/install/tiago_gazebo:/root/tiago_ws/install/tiago_moveit_config:/root/tiago_ws/install/tiago_2dnav:/root/tiago_ws/install/tiago_laser_sensors:/root/tiago_ws/install/tiago_harmonic:/root/tiago_ws/install/tiago_bringup:/root/tiago_ws/install/tiago_description:/root/tiago_ws/install/tiago_controller_configuration:/root/tiago_ws/install/pmb2_robot:/root/tiago_ws/install/pmb2_navigation:/root/tiago_ws/install/pmb2_2dnav:/root/tiago_ws/install/pmb2_laser_sensors:/root/tiago_ws/install/pmb2_bringup:/root/tiago_ws/install/pmb2_description:/root/tiago_ws/install/pmb2_controller_configuration:/root/tiago_ws/install/play_motion2:/root/tiago_ws/install/play_motion2_msgs:/root/tiago_ws/install/pal_hey5:/root/tiago_ws/install/pal_hey5_description:/root/tiago_ws/install/pal_gripper_simulation:/root/tiago_ws/install/pal_gripper:/root/tiago_ws/install/pal_gripper_description:/root/tiago_ws/install/omni_base_robot:/root/tiago_ws/install/omni_base_bringup:/root/tiago_ws/install/omni_base_description:/root/tiago_ws/install/pal_urdf_utils:/root/tiago_ws/install/pal_robotiq_gripper:/root/tiago_ws/install/pal_robotiq_description:/root/tiago_ws/install/pal_robotiq_controller_configuration:/root/tiago_ws/install/pal_maps:/root/tiago_ws/install/pal_hey5_controller_configuration:/root/tiago_ws/install/pal_gripper_controller_configuration:/root/tiago_ws/install/omni_base_controller_configuration:/root/tiago_ws/install/launch_pal:/root/tiago_ws/install/br2_gazebo_worlds:/root/mtc_ws/install/moveit_task_constructor_visualization:/root/mtc_ws/install/moveit_task_constructor_demo:/root/mtc_ws/install/moveit_task_constructor_capabilities:/root/mtc_ws/install/moveit_task_constructor_core:/root/mtc_ws/install/rviz_marker_tools:/root/mtc_ws/install/moveit_task_constructor_msgs:/opt/ros/jazzy', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'CMAKE_MODULE_PATH': '/root/mtc_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/tfm_ws/build/arm_movement', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/yolo_ws/install/yolo_ros/lib/python3.12/site-packages:/root/yolo_ws/install/yolo_msgs/lib/python3.12/site-packages:/root/tiago_ws/install/tiago_description/lib/python3.12/site-packages:/root/tiago_ws/install/pmb2_description/lib/python3.12/site-packages:/root/tiago_ws/install/play_motion2_msgs/lib/python3.12/site-packages:/root/tiago_ws/install/omni_base_description/lib/python3.12/site-packages:/root/tiago_ws/install/launch_pal/lib/python3.12/site-packages:/root/mtc_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages:/root/mtc_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/tfm_ws/install/arm_movement:/root/yolo_ws/install/yolo_bringup:/root/yolo_ws/install/yolo_msgs:/root/tiago_ws/install/tiago_simulation:/root/tiago_ws/install/tiago_robot:/root/tiago_ws/install/tiago_navigation:/root/tiago_ws/install/tiago_gazebo:/root/tiago_ws/install/tiago_moveit_config:/root/tiago_ws/install/tiago_2dnav:/root/tiago_ws/install/tiago_laser_sensors:/root/tiago_ws/install/tiago_harmonic:/root/tiago_ws/install/tiago_bringup:/root/tiago_ws/install/tiago_description:/root/tiago_ws/install/tiago_controller_configuration:/root/tiago_ws/install/pmb2_robot:/root/tiago_ws/install/pmb2_navigation:/root/tiago_ws/install/pmb2_2dnav:/root/tiago_ws/install/pmb2_laser_sensors:/root/tiago_ws/install/pmb2_bringup:/root/tiago_ws/install/pmb2_description:/root/tiago_ws/install/pmb2_controller_configuration:/root/tiago_ws/install/play_motion2:/root/tiago_ws/install/play_motion2_msgs:/root/tiago_ws/install/pal_hey5:/root/tiago_ws/install/pal_hey5_description:/root/tiago_ws/install/pal_gripper_simulation:/root/tiago_ws/install/pal_gripper:/root/tiago_ws/install/pal_gripper_description:/root/tiago_ws/install/omni_base_robot:/root/tiago_ws/install/omni_base_bringup:/root/tiago_ws/install/omni_base_description:/root/tiago_ws/install/pal_urdf_utils:/root/tiago_ws/install/pal_robotiq_gripper:/root/tiago_ws/install/pal_robotiq_description:/root/tiago_ws/install/pal_robotiq_controller_configuration:/root/tiago_ws/install/pal_maps:/root/tiago_ws/install/pal_hey5_controller_configuration:/root/tiago_ws/install/pal_gripper_controller_configuration:/root/tiago_ws/install/omni_base_controller_configuration:/root/tiago_ws/install/br2_gazebo_worlds:/root/mtc_ws/install/moveit_task_constructor_visualization:/root/mtc_ws/install/moveit_task_constructor_demo:/root/mtc_ws/install/moveit_task_constructor_capabilities:/root/mtc_ws/install/moveit_task_constructor_core:/root/mtc_ws/install/rviz_marker_tools:/root/mtc_ws/install/moveit_task_constructor_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy'}), 'shell': False}
+[30.926042] (arm_movement) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.926268] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/lib/arm_movement/mani_yolo\n'}
+[30.930691] (arm_movement) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/tfm_ws/install/arm_movement/lib/arm_movement/mani_yolo" to ""\n'}
+[30.930883] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/ament_index/resource_index/package_run_dependencies/arm_movement\n'}
+[30.930994] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/ament_index/resource_index/parent_prefix_path/arm_movement\n'}
+[30.931223] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/ament_prefix_path.sh\n'}
+[30.931341] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/ament_prefix_path.dsv\n'}
+[30.931522] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/path.sh\n'}
+[30.931642] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/path.dsv\n'}
+[30.931787] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.bash\n'}
+[30.931910] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.sh\n'}
+[30.932143] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.zsh\n'}
+[30.932311] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.dsv\n'}
+[30.932443] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/package.dsv\n'}
+[30.932557] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/ament_index/resource_index/packages/arm_movement\n'}
+[30.932766] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/cmake/arm_movementConfig.cmake\n'}
+[30.932863] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/cmake/arm_movementConfig-version.cmake\n'}
+[30.932984] (arm_movement) StdoutLine: {'line': b'-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/package.xml\n'}
+[30.934888] (arm_movement) CommandEnded: {'returncode': 0}
+[30.978488] (-) TimerEvent: {}
+[31.072716] (arm_movement) JobEnded: {'identifier': 'arm_movement', 'rc': 0}
+[31.073439] (-) EventReactorShutdown: {}

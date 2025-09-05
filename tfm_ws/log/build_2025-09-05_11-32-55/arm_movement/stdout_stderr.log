@@ -1,0 +1,18 @@
+[100%] Built target mani_yolo
+-- Install configuration: ""
+-- Up-to-date: /root/tfm_ws/install/arm_movement/lib/arm_movement/mani_yolo
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/ament_index/resource_index/package_run_dependencies/arm_movement
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/ament_index/resource_index/parent_prefix_path/arm_movement
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/ament_prefix_path.sh
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/path.sh
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/path.dsv
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.bash
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.sh
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.zsh
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.dsv
+-- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/package.dsv
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/ament_index/resource_index/packages/arm_movement
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/cmake/arm_movementConfig.cmake
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/cmake/arm_movementConfig-version.cmake
+-- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/package.xml

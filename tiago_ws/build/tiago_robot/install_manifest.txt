@@ -1,0 +1,15 @@
+/root/tiago_ws/install/tiago_robot/share/ament_index/resource_index/package_run_dependencies/tiago_robot
+/root/tiago_ws/install/tiago_robot/share/ament_index/resource_index/parent_prefix_path/tiago_robot
+/root/tiago_ws/install/tiago_robot/share/tiago_robot/environment/ament_prefix_path.sh
+/root/tiago_ws/install/tiago_robot/share/tiago_robot/environment/ament_prefix_path.dsv
+/root/tiago_ws/install/tiago_robot/share/tiago_robot/environment/path.sh
+/root/tiago_ws/install/tiago_robot/share/tiago_robot/environment/path.dsv
+/root/tiago_ws/install/tiago_robot/share/tiago_robot/local_setup.bash
+/root/tiago_ws/install/tiago_robot/share/tiago_robot/local_setup.sh
+/root/tiago_ws/install/tiago_robot/share/tiago_robot/local_setup.zsh
+/root/tiago_ws/install/tiago_robot/share/tiago_robot/local_setup.dsv
+/root/tiago_ws/install/tiago_robot/share/tiago_robot/package.dsv
+/root/tiago_ws/install/tiago_robot/share/ament_index/resource_index/packages/tiago_robot
+/root/tiago_ws/install/tiago_robot/share/tiago_robot/cmake/tiago_robotConfig.cmake
+/root/tiago_ws/install/tiago_robot/share/tiago_robot/cmake/tiago_robotConfig-version.cmake
+/root/tiago_ws/install/tiago_robot/share/tiago_robot/package.xml

@@ -1,0 +1,211 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2e6b60b10322ca80d49d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "play_motion2",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client-083642e3d297b29b48a8.json",
+					"name" : "client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-4309486acd9241378c6f.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-c26e9418e2c3bf00511a.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_loader_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_loader_test-6e6bc75246d0807134ef.json",
+					"name" : "motion_loader_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "passthrough_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-passthrough_controller-e55e0a0a23bf65a32977.json",
+					"name" : "passthrough_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "passthrough_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-passthrough_controller_parameters-74522980adccd16fe91e.json",
+					"name" : "passthrough_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2-14f34535b90204822063.json",
+					"name" : "play_motion2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_node-14b1810efa225f328a80.json",
+					"name" : "play_motion2_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_node_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_node_test-9a3cba12f2dc059af834.json",
+					"name" : "play_motion2_node_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_test-cda8d06c2b8f2dd677cf.json",
+					"name" : "play_motion2_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_motion2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_motion2_uninstall-75acb6a87a4f9d3d1dba.json",
+					"name" : "play_motion2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rrbot_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rrbot_system-f482be11206f0371b730.json",
+					"name" : "rrbot_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_motion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_motion-5942d9c99104b2617129.json",
+					"name" : "run_motion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b96adcb01d14985911ae.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/tiago_ws/build/play_motion2",
+		"source" : "/root/tiago_ws/src/play_motion2/play_motion2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

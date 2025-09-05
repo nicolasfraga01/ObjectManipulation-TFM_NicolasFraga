@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="book_16">
+    <static>false</static>
+    <link name="cover">
+      <pose>0 -0.000108 0.015405 0 1.5708 0</pose>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.245 0.16 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <pbr>
+            <metal>
+              <albedo_map>__model_path__/materials/textures/cover16.jpg</albedo_map>
+              <normal_map>__default__</normal_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.245 0.16 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="page">
+      <pose>0 0.000608 0.015405 0 1.5708 0</pose>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.24502 0.15862 0.028</size>
+          </box>
+        </geometry>
+        <material>
+          <pbr>
+            <metal>
+              <albedo_map>__model_path__/materials/textures/cover16.jpg</albedo_map>
+              <normal_map>__default__</normal_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.245 0.16 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

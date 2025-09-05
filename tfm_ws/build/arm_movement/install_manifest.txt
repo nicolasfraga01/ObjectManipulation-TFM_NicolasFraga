@@ -1,0 +1,16 @@
+/root/tfm_ws/install/arm_movement/lib/arm_movement/mani_yolo
+/root/tfm_ws/install/arm_movement/share/ament_index/resource_index/package_run_dependencies/arm_movement
+/root/tfm_ws/install/arm_movement/share/ament_index/resource_index/parent_prefix_path/arm_movement
+/root/tfm_ws/install/arm_movement/share/arm_movement/environment/ament_prefix_path.sh
+/root/tfm_ws/install/arm_movement/share/arm_movement/environment/ament_prefix_path.dsv
+/root/tfm_ws/install/arm_movement/share/arm_movement/environment/path.sh
+/root/tfm_ws/install/arm_movement/share/arm_movement/environment/path.dsv
+/root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.bash
+/root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.sh
+/root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.zsh
+/root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.dsv
+/root/tfm_ws/install/arm_movement/share/arm_movement/package.dsv
+/root/tfm_ws/install/arm_movement/share/ament_index/resource_index/packages/arm_movement
+/root/tfm_ws/install/arm_movement/share/arm_movement/cmake/arm_movementConfig.cmake
+/root/tfm_ws/install/arm_movement/share/arm_movement/cmake/arm_movementConfig-version.cmake
+/root/tfm_ws/install/arm_movement/share/arm_movement/package.xml

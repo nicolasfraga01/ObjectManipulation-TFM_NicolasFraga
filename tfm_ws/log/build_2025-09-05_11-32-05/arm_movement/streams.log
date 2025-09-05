@@ -1,0 +1,79 @@
+[0.314s] Invoking command in '/root/tfm_ws/build/arm_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake /root/tfm_ws/src/arm_movement -DCMAKE_INSTALL_PREFIX=/root/tfm_ws/install/arm_movement
+[2.392s] -- The C compiler identification is GNU 13.3.0
+[3.248s] -- The CXX compiler identification is GNU 13.3.0
+[3.326s] -- Detecting C compiler ABI info
+[3.564s] -- Detecting C compiler ABI info - done
+[3.576s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.590s] -- Detecting C compile features
+[3.637s] -- Detecting C compile features - done
+[3.696s] -- Detecting CXX compiler ABI info
+[3.843s] -- Detecting CXX compiler ABI info - done
+[3.852s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.853s] -- Detecting CXX compile features
+[3.853s] -- Detecting CXX compile features - done
+[4.179s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.506s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.979s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[5.688s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[6.089s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[6.161s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[6.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.141s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[7.789s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[8.041s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[8.060s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[8.397s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[8.423s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[8.452s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.725s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[8.806s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[9.020s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.020s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.841s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[9.975s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[10.067s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[10.186s] -- Found control_msgs: 5.4.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[10.256s] -- Found yolo_msgs: 4.2.0 (/root/yolo_ws/install/yolo_msgs/share/yolo_msgs/cmake)
+[10.319s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[10.582s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.582s] -- Configured cppcheck include dirs: 
+[10.582s] -- Configured cppcheck exclude dirs and/or files: 
+[10.609s] -- Added test 'lint_cmake' to check CMake code style
+[10.614s] -- Added test 'uncrustify' to check C / C++ code style
+[10.614s] -- Configured uncrustify additional arguments: 
+[10.617s] -- Added test 'xmllint' to check XML markup files
+[10.633s] -- Configuring done (9.9s)
+[10.828s] -- Generating done (0.2s)
+[10.846s] -- Build files have been written to: /root/tfm_ws/build/arm_movement
+[10.870s] Invoked command in '/root/tfm_ws/build/arm_movement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake /root/tfm_ws/src/arm_movement -DCMAKE_INSTALL_PREFIX=/root/tfm_ws/install/arm_movement
+[10.871s] Invoking command in '/root/tfm_ws/build/arm_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tfm_ws/build/arm_movement -- -j12 -l12
+[10.940s] [ 50%] [32mBuilding CXX object CMakeFiles/mani_yolo.dir/src/mani_yolo.cpp.o[0m
+[20.396s] [01m[K/root/tfm_ws/src/arm_movement/src/mani_yolo.cpp:[m[K In function ‘[01m[Kmoveit_msgs::msg::AttachedCollisionObject[01;32m[K grab_object[m[K(const rclcpp::Logger&, moveit::planning_interface::MoveGroupInterface&, moveit::planning_interface::PlanningSceneInterface&, std::string, moveit::planning_interface::MoveGroupInterface&, double, double, double, const std::string&, const OffsetsManipulation&)[m[K’:
+[20.396s] [01m[K/root/tfm_ws/src/arm_movement/src/mani_yolo.cpp:352:17:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kmoveit_msgs::msg::AttachedCollisionObject[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::AttachedCollisionObject_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kmoveit_msgs::msg::AttachedCollisionObject_<ContainerAllocator>::[01;32m[KAttachedCollisionObject_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[20.396s]   352 |         return {[01;35m[K}[m[K;
+[20.396s]       |                 [01;35m[K^[m[K
+[20.396s] [01m[K/root/tfm_ws/src/arm_movement/src/mani_yolo.cpp:352:17:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[28.601s] [100%] [32m[1mLinking CXX executable mani_yolo[0m
+[30.893s] [100%] Built target mani_yolo
+[30.905s] Invoked command in '/root/tfm_ws/build/arm_movement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tfm_ws/build/arm_movement -- -j12 -l12
+[30.916s] Invoking command in '/root/tfm_ws/build/arm_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tfm_ws/build/arm_movement
+[30.926s] -- Install configuration: ""
+[30.926s] -- Installing: /root/tfm_ws/install/arm_movement/lib/arm_movement/mani_yolo
+[30.930s] -- Set non-toolchain portion of runtime path of "/root/tfm_ws/install/arm_movement/lib/arm_movement/mani_yolo" to ""
+[30.930s] -- Installing: /root/tfm_ws/install/arm_movement/share/ament_index/resource_index/package_run_dependencies/arm_movement
+[30.930s] -- Installing: /root/tfm_ws/install/arm_movement/share/ament_index/resource_index/parent_prefix_path/arm_movement
+[30.931s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/ament_prefix_path.sh
+[30.931s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/ament_prefix_path.dsv
+[30.931s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/path.sh
+[30.931s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/path.dsv
+[30.931s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.bash
+[30.931s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.sh
+[30.932s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.zsh
+[30.932s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.dsv
+[30.932s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/package.dsv
+[30.932s] -- Installing: /root/tfm_ws/install/arm_movement/share/ament_index/resource_index/packages/arm_movement
+[30.932s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/cmake/arm_movementConfig.cmake
+[30.932s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/cmake/arm_movementConfig-version.cmake
+[30.932s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/package.xml
+[30.935s] Invoked command in '/root/tfm_ws/build/arm_movement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tfm_ws/build/arm_movement

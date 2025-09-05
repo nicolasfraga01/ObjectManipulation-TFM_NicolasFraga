@@ -1,0 +1,22 @@
+[0.019s] Invoking command in '/root/tfm_ws/build/arm_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tfm_ws/build/arm_movement -- -j12 -l12
+[0.110s] [100%] Built target mani_yolo
+[0.123s] Invoked command in '/root/tfm_ws/build/arm_movement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --build /root/tfm_ws/build/arm_movement -- -j12 -l12
+[0.134s] Invoking command in '/root/tfm_ws/build/arm_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tfm_ws/build/arm_movement
+[0.144s] -- Install configuration: ""
+[0.144s] -- Up-to-date: /root/tfm_ws/install/arm_movement/lib/arm_movement/mani_yolo
+[0.144s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/ament_index/resource_index/package_run_dependencies/arm_movement
+[0.145s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/ament_index/resource_index/parent_prefix_path/arm_movement
+[0.145s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/ament_prefix_path.sh
+[0.145s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/ament_prefix_path.dsv
+[0.145s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/path.sh
+[0.145s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/environment/path.dsv
+[0.145s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.bash
+[0.145s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.sh
+[0.145s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.zsh
+[0.145s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/local_setup.dsv
+[0.145s] -- Installing: /root/tfm_ws/install/arm_movement/share/arm_movement/package.dsv
+[0.145s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/ament_index/resource_index/packages/arm_movement
+[0.145s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/cmake/arm_movementConfig.cmake
+[0.145s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/cmake/arm_movementConfig-version.cmake
+[0.146s] -- Up-to-date: /root/tfm_ws/install/arm_movement/share/arm_movement/package.xml
+[0.147s] Invoked command in '/root/tfm_ws/build/arm_movement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yolo_ws/install/yolo_ros:/root/tiago_ws/install/launch_pal:/opt/ros/jazzy /usr/bin/cmake --install /root/tfm_ws/build/arm_movement

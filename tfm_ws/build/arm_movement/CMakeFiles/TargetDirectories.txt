@@ -1,0 +1,10 @@
+/root/tfm_ws/build/arm_movement/CMakeFiles/uninstall.dir
+/root/tfm_ws/build/arm_movement/CMakeFiles/arm_movement_uninstall.dir
+/root/tfm_ws/build/arm_movement/CMakeFiles/mani_yolo.dir
+/root/tfm_ws/build/arm_movement/CMakeFiles/test.dir
+/root/tfm_ws/build/arm_movement/CMakeFiles/edit_cache.dir
+/root/tfm_ws/build/arm_movement/CMakeFiles/rebuild_cache.dir
+/root/tfm_ws/build/arm_movement/CMakeFiles/list_install_components.dir
+/root/tfm_ws/build/arm_movement/CMakeFiles/install.dir
+/root/tfm_ws/build/arm_movement/CMakeFiles/install/local.dir
+/root/tfm_ws/build/arm_movement/CMakeFiles/install/strip.dir
