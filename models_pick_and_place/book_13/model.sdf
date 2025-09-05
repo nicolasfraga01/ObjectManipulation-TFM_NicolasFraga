@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="book_13">
+    <static>false</static>
+    <allow_auto_disable>1</allow_auto_disable>
+    <link name="book">
+      <pose>0 0 0.015405 0 1.5708 0</pose>
+
+      <inertial>
+        <mass>0.15</mass>
+        <inertia>
+          <ixx>0.000532</ixx>
+          <iyy>0.000896</iyy>
+          <izz>0.001302</izz>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyz>0.0</iyz>
+        </inertia>
+      </inertial>
+
+      <self_collide>false</self_collide>
+      <kinematic>false</kinematic>
+      <gravity>true</gravity>
+
+      <visual name="cover_visual">
+        <geometry>
+          <box>
+            <size>0.18 0.12 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.0 0.0 0.3 1</ambient>
+          <diffuse>0.0 0.0 0.4 1</diffuse>
+          <specular>0.0 0.0 0.0 1</specular>
+          <emissive>0.0 0.0 0.0 1</emissive>
+        </material>
+        <cast_shadows>true</cast_shadows>
+      </visual>
+
+      <collision name="cover_collision">
+        <geometry>
+          <box>
+            <size>0.18 0.12 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <visual name="page_visual">
+        <pose>-0.006 -0.006 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.17 0.11 0.051</size>
+          </box>
+        </geometry>
+        <material>
+          <lighting>true</lighting>
+          <ambient>1.0 1.0 1.0 1</ambient>
+          <diffuse>0.95 0.95 0.95 1</diffuse>
+          <specular>0.0 0.0 0.0 1</specular>
+          <emissive>0.0 0.0 0.0 1</emissive>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+
+      <collision name="page_collision">
+        <pose>-0.006 -0.006 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.17 0.11 0.051</size>
+          </box>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

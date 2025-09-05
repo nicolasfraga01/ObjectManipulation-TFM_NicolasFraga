@@ -1,0 +1,15 @@
+material book_16/cover
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      texture_unit
+      {
+        texture cover16.jpg
+      }
+    }
+  }
+}
