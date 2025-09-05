@@ -1,13 +1,13 @@
 ### Imagen base: *osrf/ros:jazzy-desktop-full*
 
-### Imagen con todo instalado: *tiago_jazzy_updated:v2*
+### Imagen con todo instalado: *nicolasfraga01/tfm_docker:latest*
 
 ### Lanzar un contenedor con la imagen creada:
 
 ```bash
 docker run -it \
   --gpus all \
-  --name tiago_jazzy_gpu_v2 \
+  --name nombre_contenedor \
   -e DISPLAY=$DISPLAY \
   -e QT_X11_NO_MITSHM=1 \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
@@ -15,7 +15,7 @@ docker run -it \
   -v ~/tiago_ws:/root/tiago_ws \
   -v ~/yolo_ws:/root/yolo_ws \
   -v ~/tfm_ws:/root/tfm_ws \
-  tiago_jazzy_updated:v2
+  nicolasfraga01/tfm_docker:latest
 ```
 
 ### Antes de lanzar el docker, en la terminal local, para poder ver las ventanas en el host:
